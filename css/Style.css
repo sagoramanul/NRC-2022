@@ -1,0 +1,1132 @@
+/*========================
+Google Fonts: 
+=========================*/
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+/* font-family: 'Lato', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&display=swap');
+/* font-family: 'Hind Siliguri', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Anek+Bangla:wght@100;200;300;400;500;600;700;800&display=swap');
+/* font-family: 'Anek Bangla', sans-serif; */
+
+
+/*=============
+Global CSS
+==============*/
+body {
+    font-family: 'Hind Siliguri', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Anek Bangla', sans-serif;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #060606;
+    z-index: 15;
+    transition: 1.5s;
+    border-bottom: 2px solid #FFDE01;
+}
+
+.details-btn {
+    text-align: center;
+    padding: 60px 0px 0px 0px;
+}
+
+.details-btn a {
+    text-decoration: none;
+    background: #006A4E;
+    padding: 5px 25px;
+    color: #fff;
+    font-size: 22px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.details-btn a:hover {
+    color: #006A4E !important;
+    background-color: #FFDE01;
+    transition: 0.8s;
+}
+
+.section-header {
+    text-align: center;
+}
+
+.section-header h3 {
+    font-size: 24px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #666;
+}
+
+.section-header h2 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #006A4E;
+    line-height: 46px;
+    text-transform: uppercase;
+}
+
+/*other page header*/
+.page-header {
+    padding: 75px 0px 0px 0px;
+}
+
+.page-header h3 {
+    color: #FFDE01;
+}
+
+.page-header h2 {
+    color: #fff;
+}
+
+
+
+
+/*============
+Header CSS
+==============*/
+header {
+    background: url(../img/DIU-Campus.jpg) no-repeat center top;
+    background-size: cover;
+    position: relative;
+    z-index: 99;
+    padding: 25px 0px 75px 0px;
+}
+
+header::after {
+    background: rgb(1, 1, 1, 0.40);
+    content: "";
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    position: absolute;
+}
+
+/*=============
+Navbar CSS
+==============*/
+.navbar-brand .main-logo {
+    width: 132px;
+}
+
+.bg-light {
+    --bs-bg-opacity: 1;
+    background-color: transparent !important;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    text-transform: uppercase;
+    font-size: 18px;
+    color: #fff;
+    padding: 2px 10px;
+    font-weight: bold;
+    border: 1px solid transparent;
+    margin: 0px 3px;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link:hover {
+    transition: 0.8s;
+    color: #006A4E !important;
+    background-color: #FFDE01 !important;
+    border: 1px solid #FFDE01 !important;
+    border-bottom-right-radius: 12px;
+    transition: 0.8s;
+}
+
+.reg-btn {
+    color: #fff !important;
+    background-color: #006A4E;
+    border-bottom-right-radius: 12px;
+    border: 1px solid #fff !important;
+}
+
+.reg-btn:hover {
+    color: #006A4E !important;
+    background-color: #FFDE01 !important;
+    border: 1px solid #FFDE01 !important;
+    transition: 0.8s;
+}
+
+/*============
+  Hero Section 
+  ==============*/
+
+.hero-section {
+    margin-top: 55px;
+}
+
+.hero-section h1 {
+    color: #fff;
+    font-size: 68px;
+    font-weight: 600;
+    text-align: center;
+    padding: 40px 0px 0px 0px;
+}
+
+.hero-section h2 {
+    color: #fff;
+    font-size: 48px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.Cowntdown-sec {
+    padding: 40px 0px;
+}
+
+.Cowntdown-sec h1 {
+    text-align: center;
+    font-size: 100px !important;
+    font-weight: 400 !important;
+    color: #fff;
+    margin-top: 0px;
+    padding: 0px !important;
+}
+
+.Cowntdown-sec .last-h1 {
+    border-right: none;
+}
+
+.Cowntdown-sec h3 {
+    text-align: center;
+    font-size: 40px;
+    margin-top: 0px;
+    color: #fff;
+}
+
+.hero-btn {
+    border: none;
+}
+
+.hero-btn a {
+    text-decoration: none;
+    background: #006A4E;
+    padding: 0px 20px;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 24px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border: 1px solid #fff;
+}
+
+.hero-btn a:hover {
+    color: #FFDE01 !important;
+    background-color: transparent;
+    border: 1px solid #FFDE01;
+    transition: 0.8s;
+}
+
+/*=============
+    About Section
+    ===============*/
+.about-section {
+    padding: 75px 0px;
+}
+
+/*Notice Board*/
+
+.notice h2 {
+    color: #006A4E;
+    font-weight: 600;
+    line-height: 1.5;
+    margin: 0 0 5px 0;
+    font-size: 36px;
+}
+
+.notice h2 span {
+    color: #666;
+}
+
+.spost {
+    padding-top: 10px;
+    border-top: 1px dashed #ddd;
+}
+
+.entry-image {
+    width: 100%;
+    height: 100%;
+}
+
+.event_date {
+    text-align: center;
+    border-bottom: 4px solid #006A4E;
+}
+
+.date {
+    display: block;
+    font-size: 36px;
+    font-weight: 900;
+    color: #006A4E;
+    line-height: 34px;
+}
+
+.month {
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #000000;
+}
+
+.entry-c {
+    position: relative;
+    overflow: hidden;
+}
+
+.entry-title h4 {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.entry-title h4 a {
+    color: #333;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.entry-title h4 a:hover {
+    color: #006A4E;
+}
+
+.entry-meta {
+    margin: 8px -10px 0 0;
+}
+
+.entry-meta p {
+    float: left;
+    font-size: 16px;
+    line-height: 14px;
+    margin: 0 10px 15px 0;
+    color: #006A4E;
+    font-family: 'Crete Round', serif;
+    font-style: italic;
+}
+
+.notice-btn {
+    margin-top: 10px;
+}
+
+/*Vedio*/
+.about-vedio {
+    width: 100%;
+    height: 100%;
+
+}
+
+.faq-logo img {
+    width: 30%;
+    display: block;
+    margin: 0 auto;
+}
+
+.accordion-button {
+    font-weight: 600;
+    font-size: 16px;
+    color: #006A4E;
+}
+
+.accordion-button:not(.collapsed) {
+    color: #006A4E;
+    background-color: #f5f5f5;
+    box-shadow: inset 0 calc(-1 * var(--bs-accordion-border-width)) 0 var(--bs-accordion-border-color);
+}
+
+.accordion-button:focus {
+    z-index: 3;
+    border-color: #f5f5f5;
+    box-shadow: none;
+}
+
+/*================
+    Roadmap-section
+    =================*/
+.roadmap-section {
+    padding: 75px 0px;
+    background: #f5f5f5;
+}
+
+.roadmap-img img {
+    width: 100%;
+}
+
+/*==================
+    Prize & Reg Section 
+    ===================*/
+.prize-section {
+    padding: 75px 0px;
+}
+
+.prize-img img {
+    width: 80%;
+}
+
+.prize-header {
+    text-align: left;
+}
+
+.prize-content ul {
+    margin-top: 30px;
+    padding-left: 24px;
+}
+
+.prize-content ul li {
+    line-height: 30px;
+    font-size: 16px;
+    list-style-type: square;
+}
+
+/*==============
+    Service Section 
+    ================*/
+.service-section {
+    padding: 75px 0px;
+}
+
+.service-row {
+    padding: 0px 100px;
+    margin-top: 30px;
+}
+
+.service {
+    position: relative;
+    width: 100%;
+}
+
+.service-item {
+    position: relative;
+    background: #ffffff;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    box-shadow: inset 0 0 0 0 transparent;
+    transition: ease-out 0.5s;
+}
+
+.service-img {
+    position: relative;
+    width: 50%;
+    overflow: hidden;
+}
+
+.service-img img {
+    position: relative;
+    width: 100%;
+    transition: .5s;
+}
+
+.service-text {
+    position: relative;
+    width: 50%;
+    padding: 0 30px;
+}
+
+.service-text h2 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    transition: 1s;
+    display: block;
+    text-align: left;
+    color: #006A4E !important;
+}
+
+.service-text p {
+    margin-bottom: 20px;
+    transition: 1s;
+}
+
+.service-btn a {
+    text-decoration: none;
+    background: transparent;
+    padding: 0px 10px;
+    color: #006A4E;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: 1px solid #006A4E;
+}
+
+.service-btn a:hover {
+    color: #006A4E !important;
+    background: #FFDE01;
+    border: 2px solid #FFDE01;
+    transition: 0.8s;
+    border: 1px solid #FFDE01;
+}
+
+.service-item:hover {
+    box-shadow: inset 800px 0 0 0 #f5f5f5;
+}
+
+.service-item:hover .service-img img {
+    transform: scale(1.2);
+}
+
+.service-item:hover .service-text h2,
+.service-item:hover .service-text h4,
+.service-item:hover .service-text p {
+    color: #000;
+}
+
+
+
+/*==================
+    Latest-news Section
+    ===================*/
+
+.latestnews-section {
+    padding: 75px 0px;
+    background: #f5f5f5;
+}
+
+
+/*Slider*/
+.slider-section {
+    margin-top: 30px;
+
+}
+
+.post-slide {
+    margin: 0 15px;
+    background: #f5f5f5;
+    border-radius: 10px;
+}
+
+.post-img {
+    overflow: hidden;
+}
+
+.post-img img {
+    width: 100%;
+    height: 220px;
+    transform: scale(1);
+    transition: all 1s ease-in-out 0s;
+}
+
+.post-slide:hover .post-img img {
+    transform: scale(1.08);
+}
+
+.post-content {
+    background: #fff;
+    padding: 20px;
+}
+
+.post-title {
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 0;
+    text-transform: capitalize;
+}
+
+.post-title a {
+    display: inline-block;
+    color: #006A4E;
+    transition: all 0.3s ease 0s;
+    text-decoration: none;
+}
+
+.post-title a:hover {
+    color: #3d3030;
+    text-decoration: none;
+}
+
+.post-description {
+    font-size: 15px;
+    color: #333;
+    line-height: 22px;
+    margin-bottom: 14px;
+}
+
+.post-bar {
+    padding: 0;
+    margin-bottom: 15px;
+    list-style: none;
+}
+
+.post-bar li {
+    color: #333;
+    padding: 2px 0;
+}
+
+.post-bar li i {
+    margin-right: 5px;
+}
+
+.post-bar .fa-calendar {
+    color: #006A4E;
+}
+
+.post-bar li a {
+    display: inline-block;
+    font-size: 12px;
+    color: #808080;
+    transition: all 0.3s ease 0s;
+}
+
+.post-bar li a:after {
+    content: ",";
+}
+
+.post-bar li a:last-child:after {
+    content: "";
+}
+
+.post-bar li a:hover {
+    color: #333;
+    text-decoration: none;
+}
+
+.read-more {
+    display: inline-block;
+    padding: 8px 15px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+    background: #006A4E;
+    border-bottom-right-radius: 10px;
+    text-transform: capitalize;
+    transition: all 0.30s linear;
+    text-decoration: none;
+}
+
+.read-more:hover {
+    color: #006A4E;
+    background: #FFDE01;
+    text-decoration: none;
+}
+
+
+
+
+/*================
+    Brand-section
+    =================*/
+.clients-logo {
+    background: #f5f5f5;
+    padding: 20px 0;
+}
+
+.clients-logo .item img {
+    width: 110px;
+}
+
+/*===============
+    Footer Section 
+    =================*/
+
+.footer-section {
+    padding: 75px 0px;
+    background: url(../img/bg.jpg) no-repeat center top;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+}
+
+.footer-section::after {
+    background: rgb(1, 1, 1, 0.80);
+    content: "";
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    position: absolute;
+}
+
+.foot-1 .main-logo {
+    width: 30%;
+}
+
+.foot-1 p {
+    padding: 10px 0px;
+    font-size: 18px;
+    color: #fff;
+}
+
+
+.service-social {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.service-social a.btn {
+    width: 35px;
+    height: 35px;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    font-weight: normal;
+    margin-right: 5px;
+}
+
+.service-social a.btn {
+    font-size: 16px;
+    color: #fff;
+    background: #006A4E;
+    transition: 1s;
+    margin-left: 5px;
+    border: 1px solid #fff;
+}
+
+.service-social a.btn:hover {
+    color: #FFDE01;
+    border-color: #FFDE01;
+}
+
+.foot-2 h3 {
+    color: #fff;
+    font-weight: 700;
+    font-size: 32px;
+}
+
+.foot-2 {
+    color: #fff;
+    font-size: 18px;
+    line-height: 20px;
+}
+
+.foot-2 ul {
+    list-style: none;
+    padding: 0;
+}
+
+.foot-2 ul li {
+    display: inline;
+}
+
+.foot-2 a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.icon-mr {
+    margin-right: 10px;
+}
+
+.Support {
+    text-align: center;
+}
+
+.Support h5 {
+    font-weight: 600;
+    color: #fff;
+    margin-top: 30px;
+}
+
+.Support p {
+    color: #fff;
+    font-size: 12px;
+}
+
+.Support p a {
+    color: #fff;
+}
+
+
+
+
+
+
+
+/************************
+#########################
+=========================
+  Guest Page CSS 
+=========================
+#########################
+************************/
+
+.judges-section {
+    padding: 75px 0px;
+}
+
+.p-4 {
+    padding: 1.5rem !important;
+    text-align: center;
+}
+
+.social-link {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    border-radius: 50%;
+    transition: all 0.3s;
+    font-size: 0.9rem;
+    background: #006A4E;
+    transition: 0.8s;
+}
+
+.social-link:hover,
+.social-link:focus {
+    color: #006A4E;
+    background: #FFDE01;
+    text-decoration: none;
+}
+
+.closing-section {
+    background: #eee;
+}
+
+.judges-card-row {
+    margin-top: 30px;
+}
+
+
+
+
+/************************
+#########################
+=========================
+  News Page CSS 
+=========================
+#########################
+************************/
+.news-page-section {
+    padding: 75px 0px;
+}
+
+.page-news-content {
+    background: #eee;
+}
+
+.news-page-row {
+    margin-top: 30px;
+}
+
+/************************
+#########################
+=========================
+  Team Page CSS 
+=========================
+#########################
+************************/
+
+.team-section {
+    padding: 75px 0px;
+}
+
+.team-card-row {
+    margin-top: 30px;
+}
+
+/************************
+#########################
+=========================
+  Program Page CSS 
+=========================
+#########################
+************************/
+.program-section {
+    padding: 75px 0px;
+}
+
+.program-img img {
+    height: 350px;
+}
+
+.program-content {
+    margin-top: 30px;
+    padding-left: 24px;
+}
+
+.program-bg {
+    background: #eee;
+}
+
+/************************
+#########################
+=========================
+  About Page CSS 
+=========================
+#########################
+************************/
+
+.about-vedio-section {
+    padding: 75px 0px;
+}
+
+.about-page-section {
+    padding: 0px 0px 75px 0px;
+}
+
+.about-head {
+    margin: 40px 0px;
+}
+
+.about-page-vedio {
+    height: 470px;
+}
+
+
+
+/*=========================
+  Media Query For Desktop
+  ========================*/
+@media (min-width:992px) and (max-width: 1200px) {
+
+    .navbar-expand-lg .navbar-nav .nav-link {font-size: 16px; padding: 2px 7px;}
+    .hero-section h1 {font-size: 68px; padding: 60px 0px 0px 0px;}
+    .Cowntdown-sec {padding: 30px 0px;}
+    .Cowntdown-sec h1 {font-size: 80px !important; border-right: none;}
+    .Cowntdown-sec h3 {font-size: 30px;}
+    .entry-title h4 a {font-size: 18px; line-height: 14px;}
+    .accordion-button {padding: 10px;}
+    .accordion-body {padding: 10px;}
+    .about-section {padding: 60px 0px;}
+    .service-section {padding: 60px 0px;}
+    .service-row {padding: 0px;}
+    .roadmap-section {padding: 60px 0px;}
+    .prize-section {padding: 60px 0px;}
+    .prize-content ul li {line-height: 25px;}
+    .latestnews-section {padding: 60px 0px;}
+    .owl-theme .owl-nav {display: none;}
+    .clients-logo .item img {margin: 0 auto;}
+    .footer-section {padding: 60px 0px;}
+
+}
+
+
+/*======================
+  Media Query For Notebook
+  ======================*/
+@media (min-width:768px) and (max-width: 992px) {
+
+    header {padding: 25px 0px 75px 0px;}
+    .hero-section {padding: 50px 0px 0px 0px;}
+    .section-header h2 {font-size: 36px; line-height: 18px;}
+    .hero-section h1 {font-size: 50px; padding: 0px;}
+    .hero-section h2 {font-size: 22px; line-height: 5px;}
+    .Cowntdown-sec {padding: 30px 0px;}
+    .Cowntdown-sec h1 {font-size: 60px !important;}
+    .Cowntdown-sec h3 {font-size: 24px;}
+    .navbar-brand .main-logo {width: 90px;}
+    .fa-bars {color: #FFDE01; }
+    .navbar-toggler {border: 2px solid #FFDE01;}
+    .navbar-toggler:focus {box-shadow: none;}
+    .navbar-expand-lg .navbar-nav .nav-link {font-size: 16px; padding: 0px 20px; text-align: center; border-bottom-right-radius: 0px; margin-bottom: 3px;}
+    .hero-section h2 {font-size: 32px;}
+    .hero-btn a {font-size: 18px;}
+    .about-section {padding: 50px 0px;}
+    .notice h2 {font-size: 28px; margin-bottom: 0;}
+    .spost {padding-top: 10px;}
+    .event_date {padding-bottom: 0px;}
+    .date {font-size: 32px; font-weight: 600; line-height: 25px;}
+    .entry-title h4 a {line-height: 13px; font-size: 15px;}
+    .entry-meta p {line-height: 0px;}
+    .notice-btn { margin-top: 5px; }
+    .accordion-button {padding: 8px; font-size: 15px; font-weight: 500;}
+    .accordion-body {padding: 5px; font-size: 14px;}
+    .service-section {padding: 50px 0px;}
+    .service-section h2 {font-size: 36px; line-height: 18px;}
+    .service-row {padding: 0px; margin-top: 25px;}
+    .service-text h2 {font-size: 18px; margin-bottom: 5px;}
+    .service-text h4 {margin-bottom: 5px; font-size: 12px;}
+    .service-text {padding: 0 5px;}
+    .service-text p {line-height: 14px; margin-bottom: 7px; font-size: 16px;}
+    .service-btn a {padding: 0px 7px;}
+    .roadmap-section {padding: 50px 0px;}
+    .prize-section {padding: 50px 0px;}
+    .prize-content ul li {line-height: 22px;}
+    .latestnews-section {padding: 50px 0px;}
+    .details-btn {padding: 30px 0px 0px 0px;}
+    .details-btn a {border-bottom-right-radius: 0px;}
+    .owl-theme .owl-nav {display: none; margin-top: 0;}
+    .clients-logo .item img {margin: 0 auto;}
+    .footer-section {padding: 50px 0px;}
+    .foot-1 p {line-height: 20px;}
+    .Support h5 {font-size: 18px;}
+
+    /*Guest page*/
+    .social-link {width: 24px; height: 24px;}
+
+    /*News page*/
+    .post-content {padding: 10px;}
+    .post-description {margin-bottom: 0px;}
+
+}
+
+
+/*======================
+  Media Query For teblet
+  ======================*/
+@media (min-width:577px) and (max-width: 768px) {
+
+    header {padding: 25px 0px 40px 0px;}
+    .hero-section {padding: 50px 0px 0px 0px; margin-top: 0px;}
+    .section-header h2 {font-size: 36px; line-height: 18px;}
+    .hero-section h1 {font-size: 36px; padding: 0px;}
+    .hero-section h2 {font-size: 22px; line-height: 5px;}
+    .Cowntdown-sec {padding: 20px 0px;}
+    .Cowntdown-sec h1 {font-size: 38px !important;}
+    .Cowntdown-sec .last-h1 {border-right: none;}
+    .Cowntdown-sec h3 {font-size: 14px; margin-top: -10px;}
+    .navbar-brand .main-logo {width: 90px;}
+    .fa-bars {color: #FFDE01;}
+    .navbar-toggler {border: 2px solid #FFDE01;}
+    .navbar-toggler:focus {box-shadow: none;}
+    .navbar-expand-lg .navbar-nav .nav-link {font-size: 16px; padding: 0px 20px; text-align: center; border-bottom-right-radius: 0px; margin-bottom: 3px;}
+    .hero-btn a { padding: 0px 12px; font-size: 14px;}
+    .about-section {padding: 40px 0px;}
+    .notice h2 {text-align: center; margin: 0;}
+    .spost {padding-top: 10px;}
+    .notice-btn {text-align: center;}
+    .about-vedio {height: 330px; padding-top: 40px;}
+    .about-faq {padding-top: 25px;}
+    .accordion-button {font-weight: 500; font-size: 16px; color: #006A4E;}
+    .service-section {padding: 40px 0px;}
+    .service-section h2 {font-size: 36px; line-height: 18px;}
+    .service-row {padding: 0px; margin-top: 25px;}
+    .service-text h2 {font-size: 18px; margin-bottom: 5px;}
+    .service-text h4 {margin-bottom: 5px; font-size: 12px;}
+    .service-text {padding: 0 5px;}
+    .service-text p {line-height: 14px; margin-bottom: 7px; font-size: 16px;}
+    .service-btn a {padding: 0px 7px;}
+    .roadmap-section {padding: 40px 0px;}
+    .prize-section {padding: 40px 0px;}
+    .prize-header {margin-top: 25px;}
+    .prize-header h3 {text-align: center;}
+    .prize-header h2 {text-align: center;}
+    .latestnews-section {padding: 40px 0px;}
+    .details-btn {padding: 0px;}
+    .details-btn a {border-bottom-right-radius: 0px;}
+    .owl-carousel .owl-nav button.owl-next,
+    .owl-carousel .owl-nav button.owl-prev,
+    .owl-carousel button.owl-dot {color: #006A4E; text-align: center; font-size: 25px; margin: 0px 15px;}
+    .owl-nav {text-align: center;}
+    .owl-theme .owl-dots,.owl-theme .owl-nav {display: none;}
+    .owl-theme .owl-nav {margin-top: 0px; display: none;}
+    .clients-logo {padding: 25px 0px;}
+    .clients-logo .item img {width: 110px;display: block;margin: 0 auto;}
+    .footer-section {padding: 40px 0px;}
+    .foot-1 .main-logo {width: 45%;}
+    .foot-1 p {line-height: 20px;}
+    .foot-2 {line-height: 20px; margin-top: 25px;}
+    .Support h5 {font-size: 17px; margin-top: 0px;}
+
+    /*Guest page*/
+    .page-header {padding: 50px 0px 0px 0px;}
+    .guest-section {padding: 50px 0px;}
+    .shadow-sm {margin-top: 30px;}
+    .card-row {margin-top: 0px;}
+
+    /*News page*/
+    .news-page-section {padding: 50px 0px;}
+    .news-page-card {margin-top: 40px;}
+    .news-page-row {margin-top: 0px;}
+
+    /*Program page*/
+    .program-section {padding: 50px 0px;}
+    .program-img img {height: 250px;}
+
+    /*About page*/
+    .about-vedio-section {padding: 50px 0px;}
+    .about-page-vedio {height: 330px; padding-top: 40px;}
+    .about-head {margin: 30px 0px;}
+    .about-page-section {padding: 0px 0px 50px 0px;}
+
+    }
+
+/*======================
+  Media Query For Mobile
+  ======================*/
+@media (min-width:320px) and (max-width: 576px) {
+
+    header {padding: 25px 0px 40px 0px;}
+    .hero-section {padding: 40px 0px 0px 0px; margin-top: 0px;}
+    .section-header h2 {font-size: 36px;}
+    .hero-section h1 {font-size: 36px; padding: 0px}
+    .hero-section h2 {font-size: 22px; line-height: 5px;}
+    .Cowntdown-sec {padding: 20px 0px;}
+    .Cowntdown-sec h1 {font-size: 28px !important;}
+    .Cowntdown-sec .last-h1 {border-right: none;}
+    .Cowntdown-sec h3 {font-size: 10px; margin-top: -10px;}
+    .navbar-brand .main-logo {width: 90px;}
+    .fa-bars {color: #FFDE01;}
+    .navbar-toggler {border: 2px solid #FFDE01;}
+    .navbar-toggler:focus {box-shadow: none;}
+    .navbar-expand-lg .navbar-nav .nav-link {font-size: 16px; padding: 0px 20px; text-align: center; border-bottom-right-radius: 0px; margin-bottom: 3px;}
+    .hero-btn a {padding: 0px 12px; font-size: 14px;}
+    .about-section {padding: 40px 0px;}
+    .notice h2 {text-align: center; margin: 0;}
+    .spost {padding-top: 10px;}
+    .notice-btn {text-align: center;}
+    .about-vedio {height: 260px; padding-top: 40px;}
+    .about-faq {padding-top: 25px;}
+    .accordion-button {font-weight: 500; font-size: 16px; color: #006A4E;}
+    .service-section {padding: 40px 0px;}
+    .service-section h2 {font-size: 36px; line-height: 18px;}
+    .service-row {padding: 0px; margin-top: 25px;}
+    .service-text h2 {font-size: 18px; margin-bottom: 5px;}
+    .service-text h4 {margin-bottom: 5px; font-size: 12px;}
+    .service-text {padding: 0 5px;}
+    .service-text p {line-height: 14px; margin-bottom: 7px; font-size: 16px;}
+    .service-btn a {padding: 0px 7px;}
+    .roadmap-section {padding: 40px 0px;}
+    .prize-section {padding: 40px 0px;}
+    .prize-header {margin-top: 25px;}
+    .prize-header h3 {text-align: center;}
+    .prize-header h2 {text-align: center;}
+    .prize-content ul li {line-height: 24px;}
+    .latestnews-section {padding: 40px 0px;}
+    .details-btn {padding: 0px;}
+    .details-btn a {border-bottom-right-radius: 0px;}
+    .owl-carousel .owl-nav button.owl-next,
+    .owl-carousel .owl-nav button.owl-prev,
+    .owl-carousel button.owl-dot {color: #006A4E; text-align: center; font-size: 25px; margin: 0px 15px;}
+    .owl-nav {text-align: center;}
+    .owl-theme .owl-dots,
+    .owl-theme .owl-nav {display: none;}
+    .owl-theme .owl-nav {margin-top: 0px; display: none;}
+    .clients-logo {padding: 25px 0px;}
+    .clients-logo .item img {width: 110px; display: block; margin: 0 auto;}
+    .footer-section {padding: 40px 0px;}
+    .foot-1 .main-logo {width: 45%;}
+    .foot-1 p {line-height: 20px;}
+    .foot-2 {line-height: 20px; margin-top: 25px;}
+    .Support h5 {font-size: 17px; margin-top: 0px;}
+
+    /*Guest page*/
+    .page-header {padding: 40px 0px 0px 0px;}
+    .judges-section {padding: 40px 0px;}
+    .guest-section {padding: 40px 0px;}
+    .shadow-sm {margin-top: 30px;}
+    .card-row {margin-top: 0px;}
+
+    /*News page*/
+    .news-page-section {padding: 40px 0px;}
+    .news-page-card {margin-top: 30px;}
+    .news-page-row {margin-top: 0px;}
+
+    /*Program page*/
+    .program-section {padding: 40px 0px;}
+    .program-img img {height: 250px;}
+
+    /*About page*/
+    .about-vedio-section {padding: 40px 0px;}
+    .about-page-vedio {height: 260px; padding-top: 40px;}
+    .about-head {margin: 30px 0px;}
+    .about-page-section {padding: 0px 0px 40px 0px;}
+
+}
