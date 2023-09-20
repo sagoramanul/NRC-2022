@@ -879,7 +879,9 @@ Navbar CSS
     height: 470px;
 }
 
-
+.sticky .navbar-expand-lg .navbar-nav .nav-link{
+    color: #006A4E;
+}
 
 /*=========================
   Media Query For Desktop
