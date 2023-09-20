@@ -25,16 +25,6 @@ h6 {
     font-family: 'Anek Bangla', sans-serif;
 }
 
-.sticky {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    background-color: #e7e7e7;
-    z-index: 15;
-    transition: 1.5s;
-    border-bottom: 2px solid #FFDE01;
-}
-
 .details-btn {
     text-align: center;
     padding: 60px 0px 0px 0px;
@@ -156,6 +146,25 @@ Navbar CSS
     background-color: #FFDE01 !important;
     border: 1px solid #FFDE01 !important;
     transition: 0.8s;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    
+    background-color: #e7e7e7;
+    z-index: 15;
+    transition: 1.5s;
+    border-bottom: 2px solid #FFDE01;
+}
+
+.sticky .navbar-expand-lg .navbar-nav .nav-link{
+    color: #006A4E;
+}
+
+.sticky .reg-btn{
+    color: #fff;
 }
 
 /*============
